@@ -18,3 +18,5 @@ puts "--"
 ted = MultiPaymentEmployee.new('Ted', 'fortranr0x@gmail.com', 60000, 275, 55)
 puts ted.salary_statement
 puts ted.calculate_salary
+
+# finished iteration 1
