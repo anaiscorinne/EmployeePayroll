@@ -6,6 +6,6 @@ class SalariedEmployee < Employee
     end
 
     def calculate_salary
-    	@annual_salary
+    	@annual_salary / 52
     end
 end

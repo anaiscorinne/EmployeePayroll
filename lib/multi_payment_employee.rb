@@ -8,6 +8,6 @@ class MultiPaymentEmployee < Employee
     end
 
     def calculate_salary
-    	@annual_salary + ((@hours_worked - 40) * @hourly_rate)
+    	(@annual_salary / 52) + ((@hours_worked - 40) * @hourly_rate)
     end
 end
